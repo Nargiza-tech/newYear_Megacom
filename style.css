@@ -1,25 +1,17 @@
 @font-face {
-	font-family: 'Campanella';
-	src: url('./fonts/campanella.eot'); /* IE 9 Compatibility Mode */
-	src: url('./fonts/campanella.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('./fonts/campanella.woff2') format('woff2'), /* Super Modern Browsers */
-		url('./fonts/campanella.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('./fonts/campanella.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('./fonts/campanella.svg#campanella') format('svg'); /* Chrome < 4, Legacy iOS */
+    font-family: 'Campanella';
+    src: url('./fonts/campanella.eot'); /* IE 9 Compatibility Mode */
+    src: url('./fonts/campanella.eot?#iefix') format('embedded-opentype'), /* IE < 9 */ url('./fonts/campanella.woff2') format('woff2'), /* Super Modern Browsers */ url('./fonts/campanella.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */ url('./fonts/campanella.ttf') format('truetype'), /* Safari, Android, iOS */ url('./fonts/campanella.svg#campanella') format('svg'); /* Chrome < 4, Legacy iOS */
 }
 
 @font-face {
-	font-family: 'Gilroy';
-	src: url('./fonts/gilroy-light.eot'); /* IE 9 Compatibility Mode */
-	src: url('./fonts/gilroy-light.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('./fonts/gilroy-light.woff2') format('woff2'), /* Super Modern Browsers */
-		url('./fonts/gilroy-light.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('./fonts/gilroy-light.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('./fonts/gilroy-light.svg#gilroy-light') format('svg'); /* Chrome < 4, Legacy iOS */
+    font-family: 'Gilroy';
+    src: url('./fonts/gilroy-light.eot'); /* IE 9 Compatibility Mode */
+    src: url('./fonts/gilroy-light.eot?#iefix') format('embedded-opentype'), /* IE < 9 */ url('./fonts/gilroy-light.woff2') format('woff2'), /* Super Modern Browsers */ url('./fonts/gilroy-light.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */ url('./fonts/gilroy-light.ttf') format('truetype'), /* Safari, Android, iOS */ url('./fonts/gilroy-light.svg#gilroy-light') format('svg'); /* Chrome < 4, Legacy iOS */
 }
 
 
-body{
+body {
     background-color: #1A5B35;
     margin: 0;
     overflow: hidden;
@@ -27,26 +19,25 @@ body{
 }
 
 
-
-.right-top{
+.right-top {
     position: absolute;
     right: 0;
 }
 
-.left-bottom{
+.left-bottom {
     position: absolute;
     bottom: 0;
     left: 0;
 }
 
 
-.left-melody{   
+.left-melody {
     position: absolute;
     left: 37px;
     bottom: 95px;
 }
 
-.content{
+.content {
     height: 100%;
     width: 100%;
     position: absolute;
@@ -56,26 +47,27 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    
+
 }
 
-.body{
+.body {
 
-  max-width: 600px;
+    max-width: 600px;
 }
 
 
-.title{
+.title {
     font-size: 75px;
     font-family: 'Campanella';
     color: #CEB076;
 }
 
 
-.subsign{
+.subsign {
     margin-left: 100px;
 }
- .congrats{
+
+.congrats {
     color: #FFFF;
     line-height: 22px;
     font-size: 18px;
@@ -83,60 +75,60 @@ body{
 }
 
 
-.sign{
+.sign {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.sign span{
+.sign span {
     font-family: 'Gilroy';
     color: #FFFF;
     line-height: 22px;
     font-size: 22px;
- 
+
 }
 
 
-.logo{
+.logo {
     margin-top: 100px;
 }
 
 
-
 @media screen and (max-width: 768px) {
 
-    .body{
+    .body {
         position: relative;
-        padding: 0  16px;
+        padding: 0 16px;
     }
 
-    .right-top{
+    .right-top {
         display: none;
     }
 
-    .left-bottom{
+    .left-bottom {
         display: none;
     }
 
-    .left-melody{
-        
+    .left-melody {
+
         width: 40px;
         height: 40px;
     }
 
-    .sign span{
+    .sign span {
         font-size: 16px;
         line-height: 19px;
-     
+
     }
-    .subsign{
+
+    .subsign {
         margin-left: 60px;
         line-height: 18px;
         font-size: 22px;
     }
 
-    .left-melody{
+    .left-melody {
         position: absolute;
         top: 110px;
         left: 90%;
