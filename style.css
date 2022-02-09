@@ -11,6 +11,13 @@
 }
 
 
+
+
+
+input::placeholder{
+    content: "jjklklm";
+}
+
 body {
     background-color: #1A5B35;
     margin: 0;
